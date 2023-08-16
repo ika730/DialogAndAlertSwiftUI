@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E17525F32A8C194E0007B3B6 /* part9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = part9.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17525F32A8C194E0007B3B6 /* DialogAndAlertSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialogAndAlertSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17525F62A8C194E0007B3B6 /* part9App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = part9App.swift; sourceTree = "<group>"; };
 		E17525F82A8C194E0007B3B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E17525FA2A8C19510007B3B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E17525FD2A8C19510007B3B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E17526032A8C19520007B3B6 /* part9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = part9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17526032A8C19520007B3B6 /* DialogAndAlertSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogAndAlertSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17526072A8C19520007B3B6 /* part9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = part9Tests.swift; sourceTree = "<group>"; };
-		E175260D2A8C19520007B3B6 /* part9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = part9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E175260D2A8C19520007B3B6 /* DialogAndAlertSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogAndAlertSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17526112A8C19520007B3B6 /* part9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = part9UITests.swift; sourceTree = "<group>"; };
 		E17526132A8C19520007B3B6 /* part9UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = part9UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +84,9 @@
 		E17525F42A8C194E0007B3B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E17525F32A8C194E0007B3B6 /* part9.app */,
-				E17526032A8C19520007B3B6 /* part9Tests.xctest */,
-				E175260D2A8C19520007B3B6 /* part9UITests.xctest */,
+				E17525F32A8C194E0007B3B6 /* DialogAndAlertSwiftUI.app */,
+				E17526032A8C19520007B3B6 /* DialogAndAlertSwiftUITests.xctest */,
+				E175260D2A8C19520007B3B6 /* DialogAndAlertSwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E17525F22A8C194E0007B3B6 /* part9 */ = {
+		E17525F22A8C194E0007B3B6 /* DialogAndAlertSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E17526172A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "part9" */;
+			buildConfigurationList = E17526172A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "DialogAndAlertSwiftUI" */;
 			buildPhases = (
 				E17525EF2A8C194E0007B3B6 /* Sources */,
 				E17525F02A8C194E0007B3B6 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = part9;
+			name = DialogAndAlertSwiftUI;
 			productName = part9;
-			productReference = E17525F32A8C194E0007B3B6 /* part9.app */;
+			productReference = E17525F32A8C194E0007B3B6 /* DialogAndAlertSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E17526022A8C19520007B3B6 /* part9Tests */ = {
+		E17526022A8C19520007B3B6 /* DialogAndAlertSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E175261A2A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "part9Tests" */;
+			buildConfigurationList = E175261A2A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "DialogAndAlertSwiftUITests" */;
 			buildPhases = (
 				E17525FF2A8C19520007B3B6 /* Sources */,
 				E17526002A8C19520007B3B6 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				E17526052A8C19520007B3B6 /* PBXTargetDependency */,
 			);
-			name = part9Tests;
+			name = DialogAndAlertSwiftUITests;
 			productName = part9Tests;
-			productReference = E17526032A8C19520007B3B6 /* part9Tests.xctest */;
+			productReference = E17526032A8C19520007B3B6 /* DialogAndAlertSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E175260C2A8C19520007B3B6 /* part9UITests */ = {
+		E175260C2A8C19520007B3B6 /* DialogAndAlertSwiftUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E175261D2A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "part9UITests" */;
+			buildConfigurationList = E175261D2A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "DialogAndAlertSwiftUIUITests" */;
 			buildPhases = (
 				E17526092A8C19520007B3B6 /* Sources */,
 				E175260A2A8C19520007B3B6 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				E175260F2A8C19520007B3B6 /* PBXTargetDependency */,
 			);
-			name = part9UITests;
+			name = DialogAndAlertSwiftUIUITests;
 			productName = part9UITests;
-			productReference = E175260D2A8C19520007B3B6 /* part9UITests.xctest */;
+			productReference = E175260D2A8C19520007B3B6 /* DialogAndAlertSwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E17525EE2A8C194E0007B3B6 /* Build configuration list for PBXProject "part9" */;
+			buildConfigurationList = E17525EE2A8C194E0007B3B6 /* Build configuration list for PBXProject "DialogAndAlertSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E17525F22A8C194E0007B3B6 /* part9 */,
-				E17526022A8C19520007B3B6 /* part9Tests */,
-				E175260C2A8C19520007B3B6 /* part9UITests */,
+				E17525F22A8C194E0007B3B6 /* DialogAndAlertSwiftUI */,
+				E17526022A8C19520007B3B6 /* DialogAndAlertSwiftUITests */,
+				E175260C2A8C19520007B3B6 /* DialogAndAlertSwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		E17526052A8C19520007B3B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E17525F22A8C194E0007B3B6 /* part9 */;
+			target = E17525F22A8C194E0007B3B6 /* DialogAndAlertSwiftUI */;
 			targetProxy = E17526042A8C19520007B3B6 /* PBXContainerItemProxy */;
 		};
 		E175260F2A8C19520007B3B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E17525F22A8C194E0007B3B6 /* part9 */;
+			target = E17525F22A8C194E0007B3B6 /* DialogAndAlertSwiftUI */;
 			targetProxy = E175260E2A8C19520007B3B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -483,7 +483,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/part9.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/part9";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DialogAndAlertSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DialogAndAlertSwiftUI";
 			};
 			name = Debug;
 		};
@@ -503,7 +503,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/part9.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/part9";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DialogAndAlertSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DialogAndAlertSwiftUI";
 			};
 			name = Release;
 		};
@@ -546,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E17525EE2A8C194E0007B3B6 /* Build configuration list for PBXProject "part9" */ = {
+		E17525EE2A8C194E0007B3B6 /* Build configuration list for PBXProject "DialogAndAlertSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E17526152A8C19520007B3B6 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E17526172A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "part9" */ = {
+		E17526172A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "DialogAndAlertSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E17526182A8C19520007B3B6 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E175261A2A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "part9Tests" */ = {
+		E175261A2A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "DialogAndAlertSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E175261B2A8C19520007B3B6 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E175261D2A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "part9UITests" */ = {
+		E175261D2A8C19520007B3B6 /* Build configuration list for PBXNativeTarget "DialogAndAlertSwiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E175261E2A8C19520007B3B6 /* Debug */,
